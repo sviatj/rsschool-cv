@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    }
+
+    html {
+    scroll-behavior: smooth;
+    }
+
+    body {
+    overflow-x: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 200px;
+    min-height: 100vh;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #D03B00;
+
+    margin: 0;
+    padding: 0;
+
+    }
+
+    .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    }
+
+    .main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 200px;
+    }
+
+    .section {
+    width: 50%;
+    padding: 40px;
+    }
